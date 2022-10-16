@@ -6,10 +6,66 @@
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <title>DIGITAL CLOCK</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>   
+        body   
+        {  
+        margin-top: 80px;  
+        padding: 30px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+        }  
+        header {  
+        background-color: rgb(108, 223, 41);  
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 0px;  
+        height: 39px;  
+        display: flex;  
+        align-items: center;  
+        box-shadow: 0 0 25px 0 black;  
+        }  
+        header * {  
+        display: inline;  
+        }  
+        header li {  
+        margin: 45px;  
+        }  
+        header li a {  
+        color: black;  
+        text-decoration: none;  
+        } 
+        
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+            margin-bottom: 0px;
+        }
+    </style>   
 </head>
+
 <body id="clock">
+
+    <header>  
+        <nav>  
+        <ul>  
+        <li><a href="#"> Home </a> </li>  &nbsp; 
+        <li><a href="https://eramarsingh.netlify.app" target="_blank"> About </a></li>  &nbsp; 
+        <li><a href="https://www.linkedin.com/in/amarsingh7/" target="_blank"> Contact </a> </li>  &nbsp;
+        <li> <a href="#"> Terms of use </a></li>  &nbsp;
+        <li> <a href="https://forms.gle/E2N4U6V6Lr7TBdw69" target="_blank"> Join Us </a> </li>  
+        </ul>  
+        </nav>  
+        </header>
+
     <h2><span id="time"></span></h2>
-    <script src="machine.js"> </script>
-    
+    <script src="machine.js">   </script>
+
+    <div class="footer">
+        <h2>@Copyright Amar Singh 2022- All Rights Reserved</h2>
+    </div>
 </body>
 </html>
