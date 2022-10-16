@@ -1,10 +1,15 @@
 #clock {
-    font-size: 50px;
+    font-size: 35px;
+    color: rgb(255, 0, 170);
     width: 800px;
     margin: 170px;
-    margin-left: 250px;
+    margin-left: 260px;
+    margin-top: 250px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(76, 230, 4);
     border-radius: 20px;
-    }
+    background-color: black;
+    background-image: url('bgimg.jpg');
+}
+
     
