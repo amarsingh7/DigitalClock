@@ -3,4 +3,5 @@ This is a Digital clock application which works on real time. It displays the ex
 
 You can simply use it as a clock, to keep track about time and all.
 
-Thank You.
+## Do check `CONTRIBUTING.md` file to start contributing to this repository. 
+## Thank You.
