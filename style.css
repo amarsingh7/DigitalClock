@@ -2,14 +2,28 @@
     font-size: 35px;
     color: rgb(255, 0, 170);
     width: 800px;
-    margin: 170px;
-    margin-left: 260px;
-    margin-top: 250px;
+    margin-top: 100px;
+    /* margin-left: 260px;
+    margin-top: 250px; */
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     border: 2px solid rgb(76, 230, 4);
     border-radius: 20px;
     background-color: black;
     background-image: url('bgimg.jpg');
+}
+#timer{
+    height: 150px;
+}
+#time{
+    font-family: Arial, Helvetica, sans-serif;
+    color:chocolate ;
+}
+#footer-text{
+    color: gainsboro;
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 .brand {
